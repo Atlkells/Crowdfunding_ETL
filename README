@@ -1,0 +1,8 @@
+# Project 2
+Group Members: Kelly Carter, Amanda Dunaway
+
+The ETL_Mini_Project notebook file extracts and transorms crowdfunding data from two .xlsx files two create four DataFrames and export them as csv files. The Category and Subcategory Dataframes each contain category and subcategory ids and titles, respectively. The Campaign DataFrame contains fundraising data, each uniquely identified by an id, containing fundraising amounts, outcomes, and dates, among other information. The Contacts DataFrame contains the name and email address of campaign participants.
+
+The relationships between the four exported csv files are sketched in the Crowdfunding_ERD png image. 
+
+Finally, a Crowdfunding database is created from the schema as outlined in the ERD. The csv files are imported into their respective tables and verified.
