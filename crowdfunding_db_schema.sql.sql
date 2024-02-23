@@ -68,6 +68,8 @@ CREATE TABLE campaign (
 	currency VARCHAR NOT NULL,
 	launch_date DATE NOT NULL,
 	end_date DATE NOT NULL,
+	category_id VARCHAR NOT NULL,
+	subcategory_id VARCHAR NOT NULL,
 	FOREIGN KEY (contact_id) REFERENCES contacts(contact_id),
 	FOREIGN KEY (category_id) REFERENCES category(category_id),
 	FOREIGN KEY (subcategory_id) REFERENCES subcategory(subcategory_id)
