@@ -5,4 +5,4 @@ The ETL_Mini_Project notebook file extracts and transorms crowdfunding data from
 
 The relationships between the four exported csv files are sketched in the Crowdfunding_ERD png image. 
 
-Finally, a Crowdfunding database is created from the schema as outlined in the ERD. The csv files are imported into their respective tables and verified.
+Lastly, a Crowdfunding database, crowdfunding_db, is created from the schema as outlined in the ERD. To create the database, we right-clicked on Databases in PgAdmin and clicked Create. We then opened a query tool and imported the .sql file we created in VSCode. A screenshot of the database with the four tables created is included in the repo. Finally, the four csv files are imported into their respective tables and verified.
